@@ -3,7 +3,6 @@ package hu.bme.mit.train.controller;
 
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
-import java.util.Date;
 
 public class TachoGraph {
 
