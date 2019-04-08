@@ -20,7 +20,7 @@ public class TrainControllerImpl implements TrainController {
 					}
 				}
 			};
-			referenceSpeedThread.start();
+			//referenceSpeedThread.start();
 		}
 
 	@Override
