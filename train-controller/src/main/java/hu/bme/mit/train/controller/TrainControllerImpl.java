@@ -7,6 +7,7 @@ public class TrainControllerImpl implements TrainController {
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
 	private int refreshRate = 300;
+	private Thread referenceSpeedThread;
 
 	public TrainControllerImpl() {
 			referenceSpeedThread = new Thread() {
